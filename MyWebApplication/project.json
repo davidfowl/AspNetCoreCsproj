@@ -1,0 +1,12 @@
+﻿{
+  "dependencies": {
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-*",
+    "Microsoft.NETCore.Platforms": "1.0.1-*"
+  },
+  "runtimes": {
+    "win7-x86": {}
+  },
+  "frameworks": {
+    "net46": { }
+  }
+}
