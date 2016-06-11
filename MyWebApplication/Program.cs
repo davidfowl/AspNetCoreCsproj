@@ -14,6 +14,7 @@ namespace MyWebApplication
         {
             var host = new WebHostBuilder()
                         .UseKestrel()
+                        .UseContentRoot(Path.Combine(Directory.GetCurrentDirectory(), "..", ".."))
                         .UseStartup<Startup>()
                         .Build();
 
